@@ -126,7 +126,7 @@ class Program
 
 		char[,] board = new char[height, width];
 
-		Random random = /*??*/
+		Random random = new Random();
 
 
 
@@ -363,7 +363,7 @@ class Program
 
 
 
-		return uncoveredCount == width *height - bombCount;
+		return uncoveredCount == /*??*/ *height - bombCount;
 
 	}
 
